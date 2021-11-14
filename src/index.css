@@ -1,0 +1,75 @@
+.main_div{
+    margin-left: 40%;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(23, 57, 251);
+    border-radius: 25px;
+}
+
+
+h1 {
+    text-align: center;
+    text-shadow: goldenrod 2px 2px;
+    margin-top: 70px;
+}
+
+button {
+    background-color: goldenrod;
+    border-color: goldenrod;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+}
+button:hover{
+    background-color:rgb(19, 19, 19) ;
+    border-color: rgb(19, 19, 19);
+    color: honeydew;
+}
+
+.button_group {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.top{
+    margin-top: 80px;
+}
+
+input {
+    border-radius: 25px;
+    width: 200px;
+    margin-left: 100px;;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.reset{
+    margin-left: 125px;
+    margin-top: 20px;
+}
+
+.theme{
+    width: 400px;
+}
+
+
+.active {
+    background-color:rgb(19, 19, 19);
+}
+
+.active h1 {
+    color: honeydew;
+    text-shadow: goldenrod 2px 2px;
+}
+
+.active button:hover {
+    background-color: #fff;
+    border-color: honeydew;
+    color: rgb(19, 19, 19);
+}
+
+
+@media screen and (max-width:680px) {
+    .main_div{
+        margin: 15px;
+    }
+}
